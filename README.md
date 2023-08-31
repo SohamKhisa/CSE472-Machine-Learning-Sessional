@@ -41,5 +41,6 @@ eventually improve patient outcomes.
 The dataset we used to train our model is from <a href="https://www.kaggle.com/code/vexxingbanana/retinal-disease-classification/data">Kaggle</a>. The training dataset consists of 1920 sample images, whereas the test set and evaluation set both contain 640 sample images. The three datasets are each accompanied by a CSV file.
 
 <b>Architecture</b>
+
 At first we used Restricted Boltzmann Machine but faced some difficulties to implement it. Worked rigorously to fix it. But it was not fruitful.
 Thus, we finally switched to CNN-AlexNet and implemented in a very short time.
